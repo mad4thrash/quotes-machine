@@ -2,7 +2,6 @@
   "name": "quotes-generator-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mad4thrash.github.io/quotes-machine/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
