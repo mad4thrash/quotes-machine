@@ -1,0 +1,8 @@
+#root{
+  display:grid;
+  place-items: center;
+  height:100vh;
+}
+body {
+  transition: background-color 500ms ease-out;
+}

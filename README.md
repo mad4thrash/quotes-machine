@@ -1,1 +1,1 @@
-# quotes-machine
+A Quotes generation machine, React and CSS3

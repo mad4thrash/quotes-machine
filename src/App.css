@@ -1,0 +1,55 @@
+#new-quote{
+    padding: 1rem;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    color:white
+}
+#quote-box{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem hsl(0, 0%, 70%);
+    width:40%;
+    height: 30%;
+    font-size:1.2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center;
+}
+#text-author{
+    grid-column: 1/4;
+}
+#author{
+    text-align:right;
+    font-style: italic;
+}
+#tweet-quote{
+    grid-column: 1/2;
+    color:black;
+    align-self: end;
+    transition: color 500ms ease-out;
+}
+#new-quote{
+    grid-column: 3/4;
+    align-self: end;
+    transition: background-color 500ms ease-out;
+}
+
+@media (max-width: 768px) {
+    #quote-box{
+        width:90%;
+        height: 50%;
+        display:flex;
+        flex-direction: column ;
+        justify-content: space-around;
+    }
+    #tweet-quote{
+        align-self: center;
+    }
+    #new-quote{
+        align-self: center;
+    }
+}
